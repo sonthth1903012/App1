@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Canvas>
+        <Rectangle Fill="blue" Width="123" Height="110" Canvas.Left="112.571" Canvas.Top="163.718" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle.RenderTransform>
+                <CompositeTransform SkewX="-17.166" TranslateX="30.891" Rotation="-760.712" ScaleX="0.955" ScaleY="1.047"/>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Ellipse Fill="red" Width="175" Height="175"/>
+        <Polygon Fill="Yellow" Points="0,0 275, 0, 23,124" Canvas.Left="59" Canvas.Top="43" Height="151" RenderTransformOrigin="0.5,0.5 Width="321"">
+            <Polygon.RenderTransform>
+                <CompositeTransform ScaleY="-1"/>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Polygon Fill="Green" Points="275,0 275, 0, 23,124"/>
+       
+    </Canvas>
+    
+    
+        
+</Page>
